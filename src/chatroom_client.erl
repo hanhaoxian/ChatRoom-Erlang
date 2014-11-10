@@ -10,7 +10,7 @@ new_client()   ->
 
 new_client_spawn_loop()   ->
     {ok, Socket} = gen_tcp:connect("localhost", ?DEFAULT_PORT, [binary, {packet, 4}, {active, once}]),
-    spawn(fun() -> loop(Socket) end),
+    gen_tcp:controlling_process(Socket, spawn(fun() -> loop(Socket) end)),
     Socket.
 
 
