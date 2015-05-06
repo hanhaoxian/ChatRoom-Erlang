@@ -1,0 +1,1 @@
+start werl -pa ebin -eval "cr_client:new_client(so)"

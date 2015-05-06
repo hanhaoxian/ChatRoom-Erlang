@@ -1,0 +1,10 @@
+{application
+, chatroom
+, [{description, "chat room for test"}
+  , {vsn, "0.1"}
+  , {modules, [cr_app, ct_sup, cr_ctr, cr_ser]}
+  , {registered, [cr_ser]}
+  , {applications, [kernel, stdlib]}
+  , {mod, {cr_app, []}}
+  ]
+}.

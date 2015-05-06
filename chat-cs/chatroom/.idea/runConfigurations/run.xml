@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application">
+    <module name="chatroom" />
+    <option name="erlFlags" value="" />
+    <option name="moduleAndFunction" value="application start" />
+    <option name="name" value="run" />
+    <option name="params" value="chatroom" />
+    <option name="saveOutputToFile" value="false" />
+    <option name="showConsoleOnStdErr" value="false" />
+    <option name="showConsoleOnStdOut" value="false" />
+    <RunnerSettings RunnerId="ErlangRunner" />
+    <ConfigurationWrapper RunnerId="ErlangRunner" />
+    <method />
+  </configuration>
+</component>
